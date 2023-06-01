@@ -1,0 +1,110 @@
+/* Global Styles
+-------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+   box-sizing: inherit;
+}
+body{
+color: #343434;
+margin: 0;
+padding: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+h1, h2{
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    margin: 10px;
+}
+h1 { 
+    font-size: 75px;
+}
+h2 {
+    font: size 50px; 
+    
+    text-shadow: 0 0 3px navy;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+img{ 
+    width: 300px;
+}
+
+a {
+    color: rgb(224, 224, 43);
+}
+a:hover{ 
+    text-decoration: none;
+}
+
+/* Profile Styles
+-------------------------------*/
+header{
+    background-color: #2f3061;
+    color:  #f7fff7;
+}
+
+
+
+
+/* Projects Styles
+-------------------------------*/
+.projects {
+    background: #f7fff7;
+}
+.projects a {
+    color: #2f3061;
+}
+
+.projects .btn {
+color: #f7fff7;
+background:#2f3061 ;
+text-decoration: none;
+padding: 8px;
+border-radius: 4px;
+display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(47,48,97,80%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434 ;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience Styles
+-------------------------------*/
+.work {
+    background:lightblue ;
+}
+
+/* Education Styles
+-------------------------------*/
+.education {
+    background: ;
+}
+
+/* Contact Info Styles
+-------------------------------*/
+
+footer{
+    background: #343434;
+    color:  #f7fff7;;
+
+}
